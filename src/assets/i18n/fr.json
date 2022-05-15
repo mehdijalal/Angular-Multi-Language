@@ -1,0 +1,11 @@
+{
+    "home":{
+        "title": "French Home Page French",
+        "welcome_text": "French: I love you, welcome to the world French",
+        "email_text": "French Email us at {{email}}",
+        "sum_text": "French When the value {{value1}} added to value {{value2}} = "
+    },
+    "settings":{
+        "title": "French Settings page"
+    }
+}

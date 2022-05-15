@@ -1,0 +1,9 @@
+<p>home works!</p>
+<h2>{{ 'home.title' | translate }}</h2>
+<h3>{{'home.welcome_text' | translate}}</h3>
+
+<p [innerHTML]="'home.email_text' | translate: {email:email_response}"></p>
+<br />
+<span [innerHTML]="'home.sum_text' | translate: {value1:a, value2:b}"></span>{{a+b}}
+<br />
+<a routerLink="/settings" translate>settings.title</a>
